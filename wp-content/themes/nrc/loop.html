@@ -1,0 +1,45 @@
+<?php get_header(); ?>
+<body>
+
+<h1><?php bloginfo('name'); ?></h1>
+<h2><?php bloginfo('description'); ?></h2>
+
+	<ul>
+		<li><?php bloginfo('name'); ?></li>
+		<li><?php bloginfo('description'); ?></li>
+		<li><?php bloginfo('wpurl'); ?></li>
+		<li><?php bloginfo('admin_email'); ?></li>
+		<li><?php bloginfo('charset'); ?></li>
+		<li><?php bloginfo('version'); ?></li>
+		<li><?php bloginfo('html_type'); ?></li>
+		<li><?php bloginfo('language'); ?></li>
+		<li><?php bloginfo('stylesheet_directory'); ?></li>
+		<li><?php bloginfo('stylesheet_url'); ?></li>
+	</ul>
+
+	<section class="content">
+		<?php query_posts('posts_per_page&cat=2,1' ); ?>
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+		<!-- post -->
+		<article>
+			<header>
+				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+				<strong><?php the_author(); ?></strong><br>
+				<?php the_date(); ?>
+			</header>
+			<figure>
+				<?php the_post_thumbnail(thumbnail); ?>
+			</figure>
+			<?php the_excerpt(); ?>
+			<?php the_category(); ?>
+
+		</article>
+		<?php endwhile; ?>
+		<!-- post navigation -->
+		<?php else: ?>
+		<!-- no posts found -->
+		<?php endif; ?>
+		<?php rewind_posts(); ?>
+
+	</section>
+<?php get_footer(); ?>

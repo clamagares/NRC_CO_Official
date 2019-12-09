@@ -1,0 +1,95 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.nrc.org.co" resolutions="1x" timestamp="1558846790419">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="4109235415" ref="index"/>
+    <file name="iefonts_index.css" crc="4076452901" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:index"/>
+    <file name="museutils.js" crc="340535759" ref="phone>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:index"/>
+    <file name="museconfig.js" crc="4286661555" ref="phone>index:index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="phone>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="phone>index:index"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="phone>index:index"/>
+    <file name="require.js" crc="7928878" ref="phone>index:index"/>
+  </folder>
+  <folder name="images">
+    <file name="huyendo-de-los-combates---nrc-colombia-favicon.ico" crc="44300611" ref="phone>index"/>
+    <file name="logo-nrc.png" crc="4283564216" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="encabezado.jpg" crc="4020622207" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hija-u961-fr.jpg" crc="168792048" ref="phone>index"/>
+    <file name="apa2.png" crc="3948540762" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="plastico.jpg" crc="3796492246" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="alimentos.jpg" crc="4014305913" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="salud.jpg" crc="221584575" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="agua.jpg" crc="110824312" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="escuelacelular.jpg" crc="4035322789" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="crisisolvidada-u987-fr.jpg" crc="455408252" ref="phone>index"/>
+    <file name="asistencianrcdos.jpg" crc="127050277" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="echotres.jpg" crc="3985900106" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="hija.jpg" crc="269778798" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="salud2.jpg" crc="3763328722" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="escuelapc.jpg" crc="80990696" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="crisisolvidada.jpg" crc="232472103" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="mapa.png" crc="294647655" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="encabezado2.jpg" crc="9650707" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="plastico2.jpg" crc="4261696540" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="alimentos2.jpg" crc="4029657650" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="agua2.jpg" crc="417031816" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="asistencianrcdos2.jpg" crc="40600945" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="echotres2.jpg" crc="3883150320" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="3808644328" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="3973047966" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="331808013" seo="true" mt="1558846723178" redirect="true"/>
+  </folder>
+  <file name="index.html" crc="235382023" seo="true" mt="1558846776453" redirect="true"/>
+</manifest>
